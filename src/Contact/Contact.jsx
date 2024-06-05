@@ -14,8 +14,10 @@ function Contact()
             <div className="flex items-center justify-center flex-col">
                 <div className="h-[17rem] sm:h-96">
                     <video className="h-max sm:h-full mt-24 sm:-mt-2" src={video} autoPlay loop muted />
-                    <div className="h-[16rem] sm:h-72 mt-10 bg-black absolute w-full left-0 top-0 flex items-center justify-center px-5 sm:px-20 md:px-40 mix-blend-multiply">
-                        <p className={`${(window.innerWidth <= 375)?"text-[7.5vw]":"text-3xl"} sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-[900]`} style={fontstyle}>Want to work with me?<br/><hr className="my-[0.3rem]"/>Want to know more about my work?</p>
+                    <div className="h-[16rem] sm:h-72 mt-10 bg-black absolute w-full left-0 top-0 flex items-center justify-center flex-col px-5 sm:px-20 md:px-40 mix-blend-multiply">
+                        <p className={`${(window.innerWidth <= 375)?"text-[7.5vw]":"text-3xl"} sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-[900]`} style={fontstyle}>Want to work with me?<br/></p>
+                        <hr className="my-[0.3rem] w-full"/>
+                        <p className={`${(window.innerWidth <= 375)?"text-[7.5vw]":"text-3xl"} sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center font-[900]`} style={fontstyle}>Want to know more about my work?</p>
                     </div>
                 </div>
                 <div className="sm:-mt-14 mb-24 relative w-full">
