@@ -10,7 +10,6 @@ function Form()
     const handleName=(event)=>
     {
         setName(event.target.value);
-        console.log(name);
     }
     const handleMail=(event)=>
     {

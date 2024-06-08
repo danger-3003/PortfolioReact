@@ -29,7 +29,7 @@ function Contact()
                 </div>
                 <div className="h-max w-full flex items-center justify-center relative z-[3] m-20 -mt-16 sm:-mt-12">
                     <div className={`bg-black rounded-2xl h-max ${width} sm:w-max flex items-center justify-center flex-col sm:flex-row p-3 shadow shadow-slate-700`}>
-                        <div className={`${(window.innerWidth <= 375)?"w-[85vw]":"w-[75vw]"} sm:w-[19rem] h-max sm:h-96 bg-gradient-to-tr from-green-400 to-indigo-400 rounded-xl px-2 py-5 sm:p-5 sm:mr-5 text-[#0d0724]`}>
+                        <div className={`${(window.innerWidth <= 375)?"w-[85vw]":"w-[75vw]"} sm:w-[19rem] h-max sm:h-96 bg-gradient-to-tr from-green-400 to-indigo-400 rounded-xl p-5 sm:mr-5 text-[#0d0724]`}>
                             <p className="text-2xl font-bold my-2">Contact Information</p>
                             <p className="font-semibold my-2">Let's work together for your next project</p>
                             <div>
