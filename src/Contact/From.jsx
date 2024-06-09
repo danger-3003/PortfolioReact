@@ -40,6 +40,10 @@ function Form()
             console.error('FAILED...', error);
         });
         swal("Your response has been recorded", "Thank you for contacting Sumanth Narem","success");
+        setName("");
+        setMail("");
+        setSubject("");
+        setMessage("");
     }
     return(
         <form className="sm:w-[40vw] md:w-[25rem] flex sm:block items-center flex-col" onSubmit={handleEvent}>
