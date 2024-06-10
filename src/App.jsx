@@ -3,13 +3,13 @@ import Projects from "./Projects/Projects.jsx";
 import NavBar from "./Home/NavBar.jsx";
 import Contact from "./Contact/Contact.jsx"
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App()
 {
     return(
         <>
-            <BrowserRouter>
+            <Router>
                 <Routes>
                     <Route path="/" element={<NavBar />}>
                         <Route index element={<Home />}></Route>
@@ -17,7 +17,7 @@ function App()
                         <Route path="contact" element={<Contact />}></Route>
                     </Route>
                 </Routes>
-            </BrowserRouter>
+            </Router>
         </>
     )
 }
