@@ -1,25 +1,22 @@
-import Home from "./Home/Home.jsx";
-import Projects from "./Projects/Projects.jsx";
-import NavBar from "./Home/NavBar.jsx";
-import Contact from "./Contact/Contact.jsx"
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './Home/NavBar';
+import Home from './Home/Home';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
+import Footer from './Home/Footer';
 
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-
-function App()
-{
-    return(
-        <>
-            <Router>
-                <Routes>
-                    <Route path="/" element={<NavBar />}>
-                        <Route index element={<Home />}></Route>
-                        <Route path="projects" element={<Projects />}></Route>
-                        <Route path="contact" element={<Contact />}></Route>
-                    </Route>
-                </Routes>
-            </Router>
-        </>
-    )
+function App() {
+  return (
+    <div>
+        <Navbar />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+    </div>
+  );
 }
 
 export default App;

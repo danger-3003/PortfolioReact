@@ -1,12 +1,22 @@
 import { Link } from "react-router-dom";
+import { useRef, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Skills from "./Skills.jsx";
 import Tools from "./Tools.jsx";
 
 function About()
 {
+    const sectionAbout = useRef(null);
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash === '#about' && sectionAbout.current) {
+        sectionAbout.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [location]);
     return(
         <>
-            <section id="About" className="h-max pt-14">
+            <div ref={sectionAbout} className="h-max pt-14">
                 <div className="flex flex-col items-center justify-center ">
                     <div id="about-me" className="text-center w-max ">
                         <p className="uppercase font-black text-4xl sm:text-5xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">About me</p>
@@ -50,7 +60,7 @@ function About()
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     );
 }

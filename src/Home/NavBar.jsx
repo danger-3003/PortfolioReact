@@ -1,6 +1,5 @@
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
-import Footer from "./Footer.jsx";
 function NavBar()
 {
     const [click,setClick]=useState("-top-full");
@@ -29,7 +28,8 @@ function NavBar()
                 </div>
                 <div className="text-[#fff] z-10 w-screen h-12 p-auto fixed transition-all duration-100 bg-gradient-to-r from-[#1e1e1e] to-[#121212]">
                     <div className={`fixed ${click} px-5 sm:pr-10 h-max sm:h-12 w-screen flex flex-col sm:flex-row items-center justify-center sm:justify-end bg-gradient-to-r from-[#1e1e1e] to-[#121212] text-[#fff] sm:top-0 transition-all duration-500 shadow-[#0000005b] shadow font-semibold`}>
-                        <Link to="/" className="mx-5 my-2" onClick={closeMenu}>Home</Link>
+                        <Link to="/#home" className="mx-5 my-2" onClick={closeMenu}>Home</Link>
+                        <Link to="/#about" className="mx-5 my-2" onClick={closeMenu}>About</Link>
                         <Link to="/projects" className="mx-5 my-2" onClick={closeMenu}>Projects</Link>
                         <Link to="/contact" className="mx-5 my-2" onClick={closeMenu}>Contact</Link>
                         <div className=" sm:hidden mb-2">
@@ -40,8 +40,6 @@ function NavBar()
                     </div>
                 </div>
             </header>
-            <Outlet />
-            <Footer />
         </>
     )
 }
