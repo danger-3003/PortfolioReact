@@ -8,7 +8,7 @@ import WebDev from "../assets/WebDev.svg";
 function Skills()
 {
     return(
-        <div className="flex justify-center items-center flex-col md:flex-row flex-wrap my-5 px-2 sm:px-5">
+        <div className="flex justify-center items-center flex-col md:flex-row flex-wrap my-5 py-5 px-2 sm:px-5 relative z-[2] w-full bg-[#111111d2] sm:bg-[#0000]">
             <div className="sm:md-4 md:mr-16 ">
                 <div className="mb-4 flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-500 to-green-500 text-transparent bg-clip-text ">
                     <p className="font-black text-9xl">2</p>

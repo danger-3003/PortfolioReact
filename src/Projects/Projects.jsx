@@ -13,7 +13,7 @@ import LogSig from "../assets/login-signup.jpg"
 function Projects() {
     return (
         <>
-            <div className="py-20 flex justify-center items-center flex-row sm:flex-col flex-wrap">
+            <div className="py-20 flex justify-center items-center flex-row sm:flex-col flex-wrap relative z-[2]">
                 <div className="hidden sm:block rounded-full bg-blue-500 h-5 w-5"></div>
                 <Card 
                     content="I've crafted a versatile website featuring

@@ -33,8 +33,9 @@ function About()
                     </div>
                     <div className="w-full">
                         <div className="flex items-center justify-center flex-col pt-10 mb-10">
-                            <div id="can_do" className="flex justify-center flex-col items-center">
-                                <div className="flex items-center justify-center flex-col sm:flex-row flex-wrap">
+                            <div id="can_do" className="flex justify-center flex-col items-center relative w-full left-0">
+                                <div className="bg-[#111111d2] left-0 -top-10 absolute w-[50%] h-[70vh] z-[1]"></div>
+                                <div className="flex items-center justify-center flex-col sm:flex-row flex-wrap relative z-[2] left-0">
                                     <div className="bg-[#1e1e1e] flex justify-center flex-col rounded-md m-3 p-4 lg:p-7 h-max w-60 sm:w-64 lg:w-72 hover:scale-110 transition-all duration-150">
                                         <i className="fa-solid fa-palette text-5xl pb-3 bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 to-green-500"></i>
                                         <p className="flex items-center"><span className="font-extrabold text-lg py-3 md:text-xl">Drawing & Painting</span></p>
