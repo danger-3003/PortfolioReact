@@ -3,7 +3,7 @@ import SQL from "../assets/SQL.png";
 import Tailwind from "../assets/TailwindCSS.svg";
 import Python from "../assets/Python.png";
 import ReactSVG  from "../assets/React.svg";
-import WebDev from "../assets/WebDev.svg";
+import WebDev from "../assets/WebDev.png";
 
 function Skills()
 {
