@@ -14,6 +14,7 @@ function Projects() {
     return (
         <>
             <div className="py-20 flex justify-center items-center flex-row sm:flex-col flex-wrap relative z-[2]">
+                <marquee className="text-red-500 h-10">This page is under maintainance !!</marquee>
                 <div className="hidden sm:block rounded-full bg-blue-500 h-5 w-5"></div>
                 <Card 
                     content="I've crafted a versatile website featuring

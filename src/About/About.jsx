@@ -30,7 +30,7 @@ function About()
                         </div>
                         <div className="my-5 text-base sm:text-lg">
                             <p>
-                                Highly motivated and skilled web developer with proficiency in Python seeking a challenging position to utilize my expertise and contribute to the success of an innovative organization. Committed to delivering high-quality code and ensuring seamless website functionality.<span className="hidden sm:block">I thrive in collaborative environments and continuously seek opportunities to expand my knowledge and skills in web development.</span>
+                                Highly motivated and skilled React developer with proficiency in MongoDB, Node JS and Express, seeking a challenging position to utilize my expertise and contribute to the success of an innovative organization. Committed to delivering high-quality code and ensuring seamless website functionality.<span className="hidden sm:block">I thrive in collaborative environments and continuously seek opportunities to expand my knowledge and skills in web development.</span>
                             </p>
                         </div>
                     </div>
