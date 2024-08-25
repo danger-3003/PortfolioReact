@@ -9,10 +9,24 @@ import AdmDash from "../assets/home.jpg";
 import Temp from "../assets/temp.jpeg";
 import Calc from "../assets/calculator.jpg";
 import LogSig from "../assets/login-signup.jpg"
+import "../components/loader.css";
+import { useState,useEffect } from "react";
 
 function Projects() {
+
+    const [loader,setLoader] = useState(true);
+    useEffect(()=>{
+        setTimeout(() => {
+            setLoader(false);
+        }, 1500);
+    })
     return (
         <>
+            {loader &&
+                <div className='fixed h-screen w-full z-20 bg-black top-0 flex items-center justify-center'>
+                    <div className='loader'></div>
+                </div>
+            }
             <div className="py-20 flex justify-center items-center flex-row sm:flex-col flex-wrap relative z-[2]">
                 <marquee className="text-red-500 h-10">This page is under maintainance !!</marquee>
                 <div className="hidden sm:block rounded-full bg-blue-500 h-5 w-5"></div>

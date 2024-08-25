@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import {useTypewriter, Cursor} from 'react-simple-typewriter';
 import profile from '../assets/profile.jpg';
 import Resume from '../assets/Sumanth Narem.pdf';
 import About from '../About/About';
+import '../components/loader.css';
 
 function Home()
 {
@@ -15,6 +16,7 @@ function Home()
         typeSpeed:120,
         cursor:"True"
     })
+    const [loader,setLoader] = useState(true);
     const sectionHome = useRef(null);
     const location = useLocation();
     useEffect(() => {
@@ -23,9 +25,19 @@ function Home()
         sectionHome.current.scrollIntoView({ behavior: 'smooth' });
         }
     }, [location]);
+    useEffect(()=>{
+        setTimeout(() => {
+            setLoader(false);
+        }, 1500);
+    })
 
     return(
         <>
+            {loader &&
+                <div className='fixed h-screen w-full z-20 bg-black top-0 flex items-center justify-center'>
+                    <div className='loader'></div>
+                </div>
+            }
             <div ref={sectionHome} className='flex items-center justify-center flex-col sm:flex-row py-20 sm:py-28 pl-5 lg:pl-10 pr-5'>
                 <div className='sm:basis-[40%] flex justify-center'>
                     <img src={profile} alt="profile-picture" className='mb-5 sm:mb-auto w-[50%] sm:w-full md:w-[80%]' />
