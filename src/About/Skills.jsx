@@ -4,15 +4,22 @@ import Tailwind from "../assets/TailwindCSS.svg";
 import Python from "../assets/Python.png";
 import ReactSVG  from "../assets/React.svg";
 import WebDev from "../assets/WebDev.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function Skills()
 {
+    useEffect(()=>{
+        AOS.init();
+    })
     return(
         <div className="flex justify-center items-center flex-col md:flex-row flex-wrap my-5 py-5 px-2 sm:px-5 relative z-[2] w-full bg-[#131313] sm:bg-[#0000]">
-            <div className="sm:md-4 md:mr-16 ">
+            <div data-aos="fade-right" data-aos-duration="1000" className="sm:md-4 md:mr-16 ">
                 <div className="mb-4 flex flex-col items-center justify-center bg-gradient-to-tl from-cyan-500 to-green-500 text-transparent bg-clip-text ">
                     <p className="font-black text-9xl">2</p>
                     <p className="font-medium text-2xl">Years</p>
+                    <p className="font-medium text-2xl">Relevant</p>
                     <p className="font-medium text-2xl">Experience</p>
                 </div>
             </div>

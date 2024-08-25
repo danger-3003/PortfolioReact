@@ -6,6 +6,8 @@ import profile from '../assets/profile.jpg';
 import Resume from '../assets/Sumanth Narem.pdf';
 import About from '../About/About';
 import '../components/loader.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home()
 {
@@ -26,6 +28,7 @@ function Home()
         }
     }, [location]);
     useEffect(()=>{
+        AOS.init();
         setTimeout(() => {
             setLoader(false);
         }, 1500);
@@ -42,7 +45,7 @@ function Home()
                 <div className='sm:basis-[40%] flex justify-center'>
                     <img src={profile} alt="profile-picture" className='mb-5 sm:mb-auto w-[50%] sm:w-full md:w-[80%]' />
                 </div>
-                <div className="flex items-center sm:items-start flex-col mx-5 sm:ml-5 lg:ml-10 sm:basis-[60%]">
+                <div data-aos="fade-up" data-aos-duration="1000" className="flex items-center sm:items-start flex-col mx-5 sm:ml-5 lg:ml-10 sm:basis-[60%]">
                     <p className="uppercase text-[5vw] sm:text-xl md:text-2xl lg:text-3xl xl:text-[2.5rem] font-bold -mb-1 xl:mb-1">hi there !</p>
                     <p className="uppercase text-[6.5vw] sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-1 font-bold">I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-400">sumanth narem</span></p>
                     <p className="bg-gradient-to-r from-green-500 to-blue-400 text-[#070622] w-max text-[4vw] sm:text-sm lg:text-base py-1 px-2 mb-5 rounded font-bold">{text}<Cursor>|</Cursor></p>
