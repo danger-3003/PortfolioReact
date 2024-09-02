@@ -49,16 +49,16 @@ function Form()
         <form className="sm:w-[40vw] md:w-[25rem] flex sm:block items-center flex-col" onSubmit={handleEvent}>
             <div className={`grid ${(window.innerWidth < 640 && window.innerWidth>440)?"grid-cols-2":"grid-col-1"} md:grid-cols-2 w-[75vw] sm:w-auto`}>
                 <div className="">
-                    <p className="mt-2">Your Name</p>
+                    <p className="mt-2">Name</p>
                     <input type="text" name="" value={name} id="Name" onChange={handleName} className={`text-white outline-none bg-[#141414] border-b-2 border-green-300 ${(window.innerWidth < 640 && window.innerWidth>440)?"w-[35vw]":"w-full"} md:w-48`}/>
                 </div> 
                 <div className="">
-                    <p className="mt-2">Your Email</p>
+                    <p className="mt-2">Email</p>
                     <input type="email" name="" value={mail} id="Email" onChange={handleMail} className={`text-white outline-none bg-[#141414] border-b-2 border-green-300  ${(window.innerWidth < 640 && window.innerWidth>440)?"w-[37vw]":"w-full"} md:w-[12.5rem]`}/>
                 </div>
             </div>
             <div className="w-[75vw] sm:w-auto">
-                <p className="mt-2">Your Subject</p>
+                <p className="mt-2">Subject</p>
                 <input type="text" name="" id="Subject" value={subject} onChange={handleSubject} className={`text-white outline-none bg-[#141414] border-b-2 border-green-300 w-full`}/>
             </div>
             <div className="w-[75vw] sm:w-auto">

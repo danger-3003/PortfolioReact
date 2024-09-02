@@ -39,7 +39,7 @@ function Contact()
                         <div className="bg-gradient-to-r from-[#0c0c0c] to-[#0e0e0e] h-[25rem] w-full absolute left-0 z-[1]"></div>
                         <div className="relative z-[2] mt-10 flex justify-center flex-col p-5">
                             <p id="heading" className="text-3xl md:text-4xl font-bold text-center m-3">Get In Touch</p>
-                            <p className="text-center text-lg sm:text-xl text-[#cccccc] mx-auto w-full sm:w-[80%] md:w-[70%]">I am capable of executing a project centered around static webpages, ensuring they meet SEO&nbsp;standards.</p>
+                            <p className="text-center text-lg sm:text-xl text-[#cccccc] mx-auto w-full sm:w-[80%] md:w-[70%]">I am capable of executing a project centered around Dynamic webpages, ensuring they meet SEO&nbsp;standards.</p>
                         </div>
                     </div>
                     <div className="h-max w-full flex items-center justify-center relative z-[3] m-20 -mt-16 sm:-mt-12">
