@@ -73,7 +73,7 @@ function Projects() {
                     content="Designed and Developed an admin dashboard
                             website with non-functional features and a
                             user-friendly interface."
-                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/home.png'}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/home.jpg'}
                     link="https://admin-dashboard-ns.vercel.app/"
                     skills="HTML, CSS, JavaScript"
                 />
