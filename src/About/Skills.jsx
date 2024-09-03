@@ -1,9 +1,4 @@
 import SkillsCard from "./SkillsCard.jsx";
-import SQL from "../assets/SQL.png";
-import Tailwind from "../assets/TailwindCSS.svg";
-import Python from "../assets/Python.png";
-import ReactSVG  from "../assets/React.svg";
-import WebDev from "../assets/WebDev.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -25,16 +20,16 @@ function Skills()
             </div>
             <div className="flex items-center justify-center flex-col">
                 <div className="grid grid-cols-3">
-                    <SkillsCard heading="Python" image={Python} className="h-10 m-2"></SkillsCard>
-                    <SkillsCard heading="SQL" image={SQL} className="h-10 m-2"></SkillsCard>
+                    <SkillsCard heading="Python" image={'https://danger-3003.github.io/PortfolioReact/src/assets/Python.png'} className="h-10 m-2"></SkillsCard>
+                    <SkillsCard heading="SQL" image={'https://danger-3003.github.io/PortfolioReact/src/assets/SQL.png'} className="h-10 m-2"></SkillsCard>
                     <SkillsCard heading="SQLMagic"></SkillsCard>
                 </div>
                 <div className="grid grid-cols-2">
-                    <SkillsCard heading="HTML|CSS" image={WebDev} className="h-10 m-2"></SkillsCard>
-                    <SkillsCard heading="Tailwindcss" image={Tailwind} className="h-10 m-2"></SkillsCard>
+                    <SkillsCard heading="HTML|CSS" image={'https://danger-3003.github.io/PortfolioReact/src/assets/WebDev.png'} className="h-10 m-2"></SkillsCard>
+                    <SkillsCard heading="Tailwindcss" image={'https://danger-3003.github.io/PortfolioReact/src/assets/TailwindCSS.svg'} className="h-10 m-2"></SkillsCard>
                 </div>
                 <div>
-                    <SkillsCard heading="React JS" image={ReactSVG} className="h-10 m-2"></SkillsCard>
+                    <SkillsCard heading="React JS" image={'https://danger-3003.github.io/PortfolioReact/src/assets/React.svg'} className="h-10 m-2"></SkillsCard>
                 </div>
             </div>
         </div>

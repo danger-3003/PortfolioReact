@@ -33,7 +33,7 @@ function Projects() {
                 <Card 
                     content="I've crafted a versatile website featuring
                             freemium AI tools for a wide range of tasks."
-                    image={genaitools}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/genaitools.svg'}
                     link="https://genaitools.vercel.app/"
                     skills="HTML, JS, SMTPJS, TailwindCSS"
                 />
@@ -41,7 +41,7 @@ function Projects() {
                     content="Designed and crafted a sleek personal portfolio
                             site with outstanding UI and smooth UX using
                             Tailwind CSS and JavaScript."
-                    image={Portfolio}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/sumanthnarem.png'}
                     link="https://sumanthnarem.vercel.app/"
                     skills="HTML, JS, Vercel, TailwindCSS"
                 />
@@ -49,7 +49,7 @@ function Projects() {
                     content="Designed a website interface that resembles
                             Netflix using HTML5, the Tailwind CSS framework,
                             and JavaScript."
-                    image={Netflix}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/netflix.webp'}
                     link="https://bi-net-clone.vercel.app/"
                     skills="HTML, CSS, JS, TailwindCSS"
                 />
@@ -57,7 +57,7 @@ function Projects() {
                     content="Created an SEO-friendly restaurant website using
                             HTML5, CSS3, JavaScript, and the Tailwind CSS
                             framework."
-                    image={Restaurant}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/emeralld-grill.webp'}
                     link="https://emeralld-grill.vercel.app/"
                     skills="HTML, CSS, JS, TailwindCSS"
                 />
@@ -65,7 +65,7 @@ function Projects() {
                     content="Developed a polished, non-responsive portfolio
                             website, creatively showcasing my work and
                             skills professionally."
-                    image={oldPort}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/portfolio.webp'}
                     link="https://nonres-portfolio.vercel.app/"
                     skills="HTML, CSS, JavaScript"
                 />
@@ -73,7 +73,7 @@ function Projects() {
                     content="Designed and Developed an admin dashboard
                             website with non-functional features and a
                             user-friendly interface."
-                    image={AdmDash}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/home.png'}
                     link="https://admin-dashboard-ns.vercel.app/"
                     skills="HTML, CSS, JavaScript"
                 />
@@ -81,7 +81,7 @@ function Projects() {
                     content="Built a responsive, fully functional temperature
                             converter website with Tailwind CSS and
                             JavaScript integration."
-                    image={Temp}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/temp.jpeg'}
                     link="https://temp-convo.vercel.app/"
                     skills="HTML, CSS, JavaScript"
                 />
@@ -89,7 +89,7 @@ function Projects() {
                     content="I've developed a responsive
                             calculator website with outstanding user
                             interface and user experience using JavaScript."
-                    image={Calc}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/calculator.jpg'}
                     link="https://calculator-ns.vercel.app/"
                     skills="HTML, CSS, JavaScript"
                 />
@@ -97,7 +97,7 @@ function Projects() {
                     content="Crafted a user-friendly login and signup
                             interface with a polished UI and excellent user
                             experiences."
-                    image={LogSig}
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/login-signup.jpg'}
                     link="https://admin-login-white.vercel.app/"
                     skills="HTML, CSS, JavaScript"
                 />
