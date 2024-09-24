@@ -1,14 +1,5 @@
 import Card from "./CardNrml.jsx";
 import CardReverse from "./CardReverse.jsx";
-import genaitools from "../assets/genaitools.svg";
-import Portfolio from "../assets/sumanthnarem.png";
-import Netflix from "../assets/netflix.webp";
-import Restaurant from "../assets/emeralld-grill.webp";
-import oldPort from "../assets/portfolio.webp";
-import AdmDash from "../assets/home.jpg";
-import Temp from "../assets/temp.jpeg";
-import Calc from "../assets/calculator.jpg";
-import LogSig from "../assets/login-signup.jpg"
 import "../components/loader.css";
 import { useState,useEffect } from "react";
 
