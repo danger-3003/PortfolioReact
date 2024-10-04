@@ -23,8 +23,8 @@ function Home()
     const location = useLocation();
     useEffect(() => {
         if (location.hash === '#home' && sectionHome.current) {
-            console.log(sectionHome.current)
-        sectionHome.current.scrollIntoView({ behavior: 'smooth' });
+            // console.log(sectionHome.current)
+            sectionHome.current.scrollIntoView({ behavior: 'smooth' });
         }
     }, [location]);
     useEffect(()=>{

@@ -18,7 +18,7 @@ function About()
     })
     useEffect(() => {
         if (location.hash === '#about' && sectionAbout.current) {
-        sectionAbout.current.scrollIntoView({ behavior: 'smooth' });
+            sectionAbout.current.scrollIntoView({ behavior: 'smooth' });
         }
     }, [location]);
     return(
