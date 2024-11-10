@@ -1,7 +1,8 @@
 import Card from "./CardNrml.jsx";
 import CardReverse from "./CardReverse.jsx";
 import "../components/loader.css";
-import { useState,useEffect } from "react";
+import APK from "../assets/HealthCare.apk";
+import { useState, useEffect } from "react";
 
 function Projects() {
 
@@ -10,7 +11,7 @@ function Projects() {
         setTimeout(() => {
             setLoader(false);
         }, 1500);
-    })
+    });
     return (
         <>
             {loader &&
@@ -19,13 +20,12 @@ function Projects() {
                 </div>
             }
             <div className="py-20 flex justify-center items-center flex-row sm:flex-col flex-wrap relative z-[2]">
-                <marquee className="text-red-500 h-10">This page is under maintainance !!</marquee>
+                {/* <marquee className="text-red-500 h-10">This page is under maintainance !!</marquee> */}
                 <div className="hidden sm:block rounded-full bg-blue-500 h-5 w-5"></div>
-                {/* <a href="https"></a> */}
                 <Card 
                     content="Health Care app: monitors BP, Sugar, Pulse; tracks health effortlessly."
                     image={'https://danger-3003.github.io/PortfolioReact/src/assets/MobileAppInterface.png'}
-                    link="https://genaitools.vercel.app/"
+                    link={APK}
                     skills="React Native, NodeJS, ExpressJS, MongoDB"
                 />
                 <CardReverse 
