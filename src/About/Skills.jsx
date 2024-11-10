@@ -22,10 +22,10 @@ function Skills()
                 <div className="grid grid-cols-3">
                     <SkillsCard heading="Python" image={'https://danger-3003.github.io/PortfolioReact/src/assets/Python.png'} className="h-10 m-2"></SkillsCard>
                     <SkillsCard heading="SQL" image={'https://danger-3003.github.io/PortfolioReact/src/assets/SQL.png'} className="h-10 m-2"></SkillsCard>
-                    <SkillsCard heading="SQLMagic"></SkillsCard>
+                    <SkillsCard heading="MongoDB" image={'https://danger-3003.github.io/PortfolioReact/src/assets/mongodb.png'} className="h-10 m-2"></SkillsCard>
                 </div>
                 <div className="grid grid-cols-2">
-                    <SkillsCard heading="HTML|CSS" image={'https://danger-3003.github.io/PortfolioReact/src/assets/WebDev.png'} className="h-10 m-2"></SkillsCard>
+                    <SkillsCard heading="Node JS" image={'https://danger-3003.github.io/PortfolioReact/src/assets/nodejs.svg'} className="h-10 m-2"></SkillsCard>
                     <SkillsCard heading="Tailwindcss" image={'https://danger-3003.github.io/PortfolioReact/src/assets/TailwindCSS.svg'} className="h-10 m-2"></SkillsCard>
                 </div>
                 <div>

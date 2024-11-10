@@ -13,7 +13,7 @@ function SkillsCard(props)
                 <p className="text-center text-[3.5vw] sm:text-sm">{props.heading}</p>
                 <div>
                     <img src={props.image} className={props.className} alt="" />
-                    <p className="font-mono font-bold uppercase text-2xl mt-2">{props.heading=="SQLMagic"?"%%SQL":""}</p>
+                    {/* <p className="font-mono font-bold uppercase text-2xl mt-2">{props.heading=="SQLMagic"?"%%SQL":""}</p> */}
                 </div>
             </div>
         </>

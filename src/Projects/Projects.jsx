@@ -21,6 +21,19 @@ function Projects() {
             <div className="py-20 flex justify-center items-center flex-row sm:flex-col flex-wrap relative z-[2]">
                 <marquee className="text-red-500 h-10">This page is under maintainance !!</marquee>
                 <div className="hidden sm:block rounded-full bg-blue-500 h-5 w-5"></div>
+                {/* <a href="https"></a> */}
+                <Card 
+                    content="Health Care app: monitors BP, Sugar, Pulse; tracks health effortlessly."
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/MobileAppInterface.png'}
+                    link="https://genaitools.vercel.app/"
+                    skills="React Native, NodeJS, ExpressJS, MongoDB"
+                />
+                <CardReverse 
+                    content="Redesigned personal portfolio with refined UI and seamless UX using Tailwind."
+                    image={'https://danger-3003.github.io/PortfolioReact/src/assets/sumanthnarem-react.png'}
+                    link="https://sumanthnarem.vercel.app/"
+                    skills="React, TailwindCSS"
+                />
                 <Card 
                     content="I've crafted a versatile website featuring
                             freemium AI tools for a wide range of tasks."
@@ -33,7 +46,7 @@ function Projects() {
                             site with outstanding UI and smooth UX using
                             Tailwind CSS and JavaScript."
                     image={'https://danger-3003.github.io/PortfolioReact/src/assets/sumanthnarem.png'}
-                    link="https://sumanthnarem.vercel.app/"
+                    link="https://snnoreact.vercel.app/"
                     skills="HTML, JS, Vercel, TailwindCSS"
                 />
                 <Card 
